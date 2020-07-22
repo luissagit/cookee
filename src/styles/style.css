@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Rambla&display=swap');
+@import url(list-area.css);
+@import url(list-cat.css);
+@import url(header-nav.css);
+@import url(list-result.css);
+@import url(recipe-detail.css);
+@import url(random-recipe.css);
+@import url(footer.css);
+
+
+main {
+	width : 100%;
+	overflow : auto;
+}
+
+body {
+	width : 70%;
+	padding : 15px;
+	overflow : auto;
+	margin : 0 auto;
+	font-family: 'Rambla', sans-serif;
+	padding : 0;
+	box-sizing : border-box;
+	
+}
+
+#recipeDetail {
+	overflow : auto;
+	box-sizing : border-box;
+	float : right;
+}
+
+h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.toDetail {
+	cursor : pointer;
+}
+
+#loading {
+	text-align : center;
+}
+
+@media screen and (max-width: 800px) {
+	body {
+		width : 90%;
+	}
+}

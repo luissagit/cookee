@@ -1,0 +1,67 @@
+#listResult {
+	margin-top : 10px;
+	text-align : center;
+	width : 60%;
+	margin : 0 auto 0 auto;
+}
+
+#listResult h3 {
+
+	border-bottom-width : 2px;
+	border-bottom-style : solid;
+	padding-bottom : 5px;
+}
+
+#listResult .result-card {
+	margin : 0 auto;
+	width : 90%;
+	text-align : left;
+	border-bottom-style : solid;
+	border-bottom-color : gray;
+	border-bottom-width : 1px;
+	padding : 10px;
+}
+
+.result-card {
+	overflow : hidden;
+	box-sizing : border-box;
+	max-height : 100px;
+	background-color : white;
+	transition : background-color 0.3s;
+}
+
+.result-card img {
+	vertical-align : middle;
+	margin-right : 5px;
+	border-radius : 50%;
+	float : left;
+	max-width : 12%;
+	box-sizing : border-box;
+}
+
+.result-card h4 {
+	float : right;
+	width : 85%;
+	margin-top : 10px;
+	font-size : 18px;
+	font-weight : 3;
+	box-sizing : border-box;
+}
+
+.result-card:hover, .result-card:focus{
+	background-color : #DEDEDE;
+}
+
+@media screen and (max-width: 800px) {
+	#listResult {
+		width : 100%;
+	}
+	.result-card h4 {
+		font-size : 14px;
+		width : 80%;
+	}
+	.result-card img {
+		max-width : 15%;
+		
+	}
+}

@@ -1,0 +1,111 @@
+#recipeDetail {
+	margin : 10 auto 0 auto;
+}
+
+#detailThumb {
+	margin : 0 auto;
+	width : 40%;
+	padding : 10px;
+	box-sizing : border-box;
+	text-align : center;
+}
+
+#detailThumb img {
+	transition : height 1s, width 1s;
+	height : 200px;
+	width : 90%;
+	object-fit: cover;
+	object-position: center;
+}
+
+#detailThumb img:hover {
+	height : 300px;
+	width : 100%;
+	object-fit: cover;
+	object-position: center;
+}
+
+#detailTitle {
+	margin : 0 auto 10 auto;
+	width : 70%;
+	padding-bottom : 10px;
+	box-sizing : border-box;
+	border-bottom-width : 2px;
+	border-bottom-style : solid;
+	border-bottom-color : gray;
+
+}
+
+#detailTitle h2 {
+	margin : 5 auto;
+}
+
+#detailInfo {
+	margin : 0 auto 10 auto;
+	width : 70%;
+}
+
+#detailInstruction, #detailIIngredient, #detailVideo {
+	
+	margin : 0 auto;
+	width : 70%;
+	padding-bottom : 0px;
+}
+
+
+
+#ing {
+	
+	width : 80%;
+	margin : 0 auto 10 auto;
+	padding : 10px;
+	border-width : 0px;
+	background-color : #FEE6E0;
+	border-radius : 5px;
+	color : #FD6E50;
+}
+
+#detailInstruction{
+	text-align : justify;
+	text-indent: 2em;
+}
+
+#video {
+	margin : 0 20%;
+}
+
+@media screen and (max-width: 800px) {
+	#recipeDetail {
+		margin : 10 auto 50 auto;
+		width : 100%
+	}
+
+	#detailThumb {
+		width : 100%;
+	}
+
+	#detailThumb img {
+		width : 100%;
+	}
+
+	#detailTitle {
+		width : 90%;
+	}
+
+	#detailTitle h2 {
+		margin : 5 auto;
+	}
+
+	#detailInfo, #detailInstruction, #detailIIngredient, #detailVideo {
+		width : 90%;
+	}
+	
+	#video {
+		margin : 0;
+	}
+	iframe {
+		margin : 0 auto;
+		width : 240;
+		height : 160;
+	}
+}

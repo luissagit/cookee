@@ -1,0 +1,11 @@
+footer p {
+	padding-top : 10px;
+	border-top : 1px solid  gray;
+	color : #FD6E50;
+}
+
+@media screen and (max-width: 800px) {
+	footer {
+		
+	}
+}

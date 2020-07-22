@@ -1,0 +1,37 @@
+#listArea {
+	width : 60%;
+	padding : 10px;
+	margin : 0 auto;
+	text-align : center;
+}
+
+#listArea h3 {
+	margin-top : 0px;
+	margin-bottom : 20px;
+	border-bottom-width : 2px;
+	border-bottom-style : solid;
+	padding-bottom : 5px;
+}
+
+.button-area {
+	margin : 3px;
+	padding : 10px;
+	border-width : 0px;
+	background-color : #FEE6E0;
+	border-radius : 5px;
+	color : #FD6E50;
+	transition : background-color 0.5s, border-radius 0.5s, color 0.5s;
+}
+
+.button-area:hover, .button-area:focus {
+	cursor : pointer;
+	background-color : #FD6E50;
+	border-radius : 20px;
+	color : white;
+}
+
+@media screen and (max-width: 800px) {
+	#listArea {
+		width : 90%;
+	}
+}
